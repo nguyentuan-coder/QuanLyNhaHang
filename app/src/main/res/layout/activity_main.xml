@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:background="@color/white"
+    android:paddingBottom="16dp"
+    tools:context=".ActivityRegister">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/lightblue"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTieuDe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textColor="@color/orange"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edTaiKhoan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_input"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="10dp"
+            android:hint="@string/user"
+            android:maxLines="1"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#8D6E63" />
+
+        <EditText
+            android:id="@+id/edMatKhau"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_input"
+            android:drawableLeft="@drawable/key"
+            android:drawablePadding="10dp"
+            android:hint="@string/pass"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#8D6E63" />
+
+        <RadioGroup
+            android:id="@+id/rdGioitinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdNam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_input"
+                android:buttonTint="@color/black"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:text="@string/man"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/rdNu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_input"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:text="@string/women"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edNgaySinh"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_input"
+            android:drawableLeft="@drawable/date"
+            android:drawablePadding="10dp"
+            android:hint="@string/birth"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/edMaQL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_input"
+            android:drawableLeft="@drawable/qrcode"
+            android:drawablePadding="10dp"
+            android:hint="@string/code"
+            android:maxLength="8"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnDongy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/green_2"
+                android:padding="15dp"
+                android:text="@string/Agree"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnHuyBo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/red_2"
+                android:padding="15dp"
+                android:text="@string/Cancel"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

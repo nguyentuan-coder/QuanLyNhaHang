@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/idTrangTru"
+            android:title="@string/home"
+            android:checked="true"
+            android:icon="@drawable/home"
+            />
+        <item android:id="@+id/idThucDon"
+            android:title="@string/menu"
+            android:icon="@drawable/foodtable"/>
+        <item android:id="@+id/idMonAn"
+            android:title="@string/food"
+            android:icon="@drawable/food"/>
+        <item android:id="@+id/idNhanVien"
+            android:title="@string/team"
+            android:icon="@drawable/people"/>
+        <item android:id="@+id/idCaiDat"
+            android:title="@string/set"
+            android:icon="@drawable/setting"/>
+    </group>
+
+</menu>
