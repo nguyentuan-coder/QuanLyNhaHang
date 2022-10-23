@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTenBanAn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/nameFoodTable"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imgFoodTable"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/foodtable"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/setMenuType" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgOderFood"
+            android:visibility="invisible"
+            android:background="@drawable/custem_border"
+            android:src="@drawable/oderfood"
+            android:contentDescription="@string/namelogin" />
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgPay"
+            android:visibility="invisible"
+            android:background="@drawable/custem_border"
+            android:src="@drawable/pay3"
+            android:contentDescription="@string/save" />
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgShowTable"
+            android:visibility="invisible"
+            android:background="@drawable/custem_border"
+            android:src="@drawable/show"
+            android:contentDescription="@string/successfulupdate" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -13,15 +13,27 @@
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/drawable/custom_input.xml" value="0.176" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/drawable/dangnhapactivity.xml" value="0.1795" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/drawable/date.xml" value="0.1795" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/drawable/drawabel_ldpi.xml" value="0.163" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/drawable/drawable_idpi.xml" value="0.2385" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1795" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1595" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/drawable/menu.xml" value="0.181" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/drawable/qrcode.xml" value="0.2245" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/font/fonttext.xml" value="0.3046875" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout-land/activity_main.xml" value="0.309375" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/add_banan.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/add_menu.xml" value="0.264" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/addfoodtable.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/addmenu.xml" value="0.2" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/custem_hienthitaikhoan.xml" value="0.15208333333333332" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/custem_showfoodtype.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/custem_showpeople.xml" value="0.2708333333333333" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/custemfoodtable.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/custemlayoutchitietmon.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/custemsploaithucdon.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/custom_banan.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/custom_hienthiloaimonan.xml" value="0.2708333333333333" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/dangnhapactivity.xml" value="0.264" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/graddmenu.xml" value="0.2708333333333333" />
         <entry key="..\:/Users/mrken/AndroidStudioProjects/QuanLyNhaHang/app/src/main/res/layout/layout_header_navigation.xml" value="0.2" />

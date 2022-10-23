@@ -7,7 +7,7 @@
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
     android:paddingBottom="20dp"
-    tools:context=".LoginActivity"
+    tools:context=".DangnhapActivity"
     android:paddingTop="20dp">
 
     <LinearLayout
@@ -24,12 +24,14 @@
             android:layout_marginBottom="10dp"
             android:layout_gravity="start"
             android:id="@+id/imgBack"
-            android:src="@drawable/back" />
+            android:src="@drawable/back"
+            android:contentDescription="@string/setMenuType" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="150dp"
-            android:src="@drawable/nhahag" />
+            android:src="@drawable/nhahag"
+            android:contentDescription="@string/setNameTable" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,8 +40,9 @@
             android:layout_marginBottom="20dp"
             android:text="@string/login"
             android:textColor="@color/white"
-            android:textSize="45dp"
-            android:textStyle="bold" />
+            android:textSize="45sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
 
         <EditText
             android:id="@+id/edTenDN"
@@ -47,14 +50,16 @@
             android:layout_height="50dp"
             android:layout_margin="20dp"
             android:background="@drawable/custom_input"
-            android:drawableLeft="@drawable/account"
+            android:drawableStart="@drawable/account"
             android:drawablePadding="10dp"
             android:hint="@string/namelogin"
             android:maxLines="1"
             android:minHeight="48dp"
             android:padding="10dp"
             android:textColor="@color/black"
-            android:textColorHint="#8D6E63" />
+            android:textColorHint="#8D6E63"
+            android:importantForAutofill="no"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/edMatKhauĐN"
@@ -62,13 +67,14 @@
             android:layout_height="50dp"
             android:layout_margin="20dp"
             android:background="@drawable/custom_input"
-            android:drawableLeft="@drawable/key"
+            android:drawableStart="@drawable/key"
             android:drawablePadding="10dp"
             android:hint="@string/pass"
             android:inputType="textPassword"
             android:padding="10dp"
             android:textColor="@color/black"
-            android:textColorHint="#8D6E63" />
+            android:textColorHint="#8D6E63"
+            android:importantForAutofill="no" />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -79,7 +85,7 @@
                 android:textStyle="bold"
                 android:checked="true"
                 android:id="@+id/chkSavePass"
-                android:layout_marginRight="200dp"
+                android:layout_marginEnd="200dp"
                 android:text="@string/save"/>
 
 
@@ -93,6 +99,7 @@
 
             <Button
                 android:id="@+id/btnDyDN"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -100,11 +107,14 @@
                 android:backgroundTint="@color/green_2"
                 android:padding="15dp"
                 android:text="@string/login"
-                android:textSize="15dp"
-                android:textStyle="bold" />
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
 
             <Button
                 android:id="@+id/btnDangKy"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -112,8 +122,10 @@
                 android:backgroundTint="@color/orange"
                 android:padding="15dp"
                 android:text="@string/regiter"
-                android:textSize="15dp"
-                android:textStyle="bold" />
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
 
         </LinearLayout>
     </LinearLayout>

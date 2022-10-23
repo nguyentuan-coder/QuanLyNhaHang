@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/blue"
+    >
+
     <EditText
-        android:id="@+id/edNhapLoaiTD"
+        android:id="@+id/edNhapBanAnThem"
         android:layout_width="200dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
@@ -15,22 +18,23 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/custom_input"
         android:gravity="center"
-        android:hint="@string/setMenuType"
+        android:hint="@string/setNameTable"
         android:maxLines="1"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
-        android:importantForAutofill="no"
-        android:inputType="text" />
+        android:inputType="text"
+        android:autofillHints="" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
 
         <Button
-            android:id="@+id/btnXNThemLTD"
+            android:id="@+id/btnXNThem"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
@@ -41,10 +45,10 @@
             android:backgroundTint="@color/green_2"
             android:padding="10dp"
             android:text="@string/ok"
-            tools:ignore="TextContrastCheck" />
+            android:textColor="#FFFF00" />
 
         <Button
-            android:id="@+id/btnHuyThemLTD"
+            android:id="@+id/btnXNHuy"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -52,11 +56,11 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="20dp"
-            android:backgroundTint="@color/orange"
+            android:backgroundTint="@color/green_2"
             android:padding="10dp"
+            android:textColor="#FFFF00"
             android:text="@string/Cancel"
             tools:ignore="TextContrastCheck"
             style="?android:attr/buttonBarButtonStyle" />
     </LinearLayout>
-
 </LinearLayout>

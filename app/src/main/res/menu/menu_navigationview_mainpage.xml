@@ -9,9 +9,6 @@
         <item android:id="@+id/idThucDon"
             android:title="@string/menu"
             android:icon="@drawable/foodtable"/>
-        <item android:id="@+id/idMonAn"
-            android:title="@string/food"
-            android:icon="@drawable/food"/>
         <item android:id="@+id/idNhanVien"
             android:title="@string/team"
             android:icon="@drawable/people"/>

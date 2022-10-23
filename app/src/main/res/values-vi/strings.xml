@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">QuanLyNhaHang</string>
     <string name="name">Đăng Ký Tài Khoản</string>
@@ -45,5 +46,4 @@
     <string name="addPeople">Thêm nhân viên</string>
     <string name="updateNV">Cập nhật nhân viên</string>
     <string name="money">Giá tiền:</string>
-
 </resources>

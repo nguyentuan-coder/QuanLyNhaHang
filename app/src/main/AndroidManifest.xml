@@ -12,7 +12,7 @@
 
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".DangnhapActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,15 +20,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".TrangchuActivity"></activity>
         <activity
-            android:name=".FoodTableActivity"
+            android:name=".BanAnActivity"
             android:theme="@style/PopUpActivyti" />
-        <activity android:name=".ActivityRegister"></activity>
-        <activity android:name=".AddFoodMenu"></activity>
-        <activity android:name=".TableFixAcitvity"
+        <activity android:name=".DangKyActitity"></activity>
+        <activity android:name=".ThemMonAnActivity"></activity>
+        <activity android:name=".SuaBanAnActivity"
             android:theme="@style/PopUpActivyti"></activity>
-        <activity android:name=".AddMenuType"
+        <activity android:name=".ThemThucDonActivity"
             android:label="@string/setMenuType"
             android:theme="@style/PopUpActivyti">
         </activity>
